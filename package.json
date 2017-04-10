@@ -1,0 +1,13 @@
+{
+  "name": "webpack-chunk-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "webpack": "^2.3.3",
+    "webpack-chunk-hash": "^0.4.0"
+  }
+}
